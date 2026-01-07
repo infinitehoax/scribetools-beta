@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "author": "Jules",
+    "title": "Vietnamese Rules",
+    "description": "Rules for correcting common Vietnamese typographical errors.",
+    "id": "2",
+    "version": "1"
+  },
+  "rules": [
+    {
+      "description": "Fix 'w' to 'ư'",
+      "find": "w",
+      "replace": "ư",
+      "flags": "g",
+      "enabled": true
+    },
+    {
+      "description": "Fix 'aw' to 'ă'",
+      "find": "aw",
+      "replace": "ă",
+      "flags": "g",
+      "enabled": true
+    },
+    {
+        "description": "Fix 'aj' to 'ạ'",
+        "find": "aj",
+        "replace": "ạ",
+        "flags": "g",
+        "enabled": true
+    },
+    {
+        "description": "Fix 'uwow' to 'ươ'",
+        "find": "uwow",
+        "replace": "ươ",
+        "flags": "g",
+        "enabled": true
+    }
+  ]
+}
